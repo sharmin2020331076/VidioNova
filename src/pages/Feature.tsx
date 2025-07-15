@@ -1,29 +1,29 @@
 export function Feature(){
     return(
-        <div className="relative w-full min-h-screen pr-32 pl-32 pt-32 space-y-6 ">
+        <div className="relative w-full min-h-screen lg:pr-32 lg:pl-32 p-8 pt-32 space-y-6 ">
 
-            <div className="flex justify-start">
-                <div className="bg-white/20 rounded-full shadow-2xl p-2 flex space-x-1 items-center">
+            <div className="flex lg:justify-start justify-center">
+            <div className="bg-white/20 rounded-full shadow-2xl p-2 flex space-x-1 items-center">
                 <hr className="border-1 border-[#C77DFF] w-3"/>
                 <span className="text-white font-semibold">Features</span>
                 <hr className="border-1 border-[#C77DFF] w-3"/>
             </div>
             </div>
 
-             <div className="flex flex-col space-y-1">
-                <p className="text-5xl text-transparent font-bold bg-clip-text bg-gradient-to-r from-white to-[#ff03c0]">Your go-to tool for crafting</p>
-                <p className="text-5xl text-transparent font-bold bg-clip-text bg-gradient-to-l from-white to-[#f163ce]">
-                    viral Shorts Videos using AI.</p>
+             <div className="flex flex-col text-center sm:text-start space-y-1">
+                <p className="lg:text-start text-center text-3xl md:text-4xl lg:text-5xl text-transparent font-bold bg-clip-text bg-gradient-to-r from-white to-[#ff03c0]">Your go-to tool for crafting</p>
+                <p className="lg:text-start text-center text-3xl md:text-4xl lg:text-5xl text-transparent font-bold bg-clip-text bg-gradient-to-l from-white to-[#f163ce]">
+                viral Shorts Videos using AI.</p>
             </div>
 
              <div className="flex flex-col">
-                <p className=" text-[17px] text-white/80">Produce a endless number of short videos simultaneously. Automatically</p>
-                <p className="text-[17px] text-white/80">captions, effects, backgrounds and music for you.</p>
-            </div>
+                <p className="lg:text-start text-center text-[17px] text-white/80">Produce a endless number of short videos simultaneously. Automatically</p>
+                <p className="lg:text-start text-center text-[17px] text-white/80">captions, effects, backgrounds and music for you.</p>
+             </div>
 
-            <div>
+            
                 {/* from-[#C77DFF] via-[#9D4EDD] to-[#5A189A] */}
-                <div className="flex space-x-6">
+                <div className="flex space-x-6 lg:justify-start justify-center">
                 <div className="flex items-center justify-center space-x-2 bg-gradient-to-t from-purple-400 to-pink-500 border-1 border-white/40  text-white rounded-full h-12 w-30 p-3 shadow-4xl hover:scale-105 transition duration-300 cursor-pointer">
                     <p className="font-bold">Try Now</p>
                 <span className="font-bold">&gt;</span>
@@ -35,11 +35,11 @@ export function Feature(){
                    </div>
                 </div>
                 </div>
-            </div>
+        
 
 
             {/* Upper cards */}
-            <div className="grid grid-cols-3 gap-10 pt-10">
+            <div className="grid grid-col lg:grid-cols-3 gap-10 pt-10">
                 {/* card 1 */}
                 <div className="border-1 border-b-purple-500 border-r-purple-500 flex flex-col space-y-6 items-center justify-center bg-gradient-to-r from-gray-800 via-gray-900 to-gray-950 rounded-2xl pr-8 pl-8 pt-4 pb-4">
                     <div className="flex items-center space-x-3">
@@ -106,10 +106,9 @@ export function Feature(){
             <div>
                 <h3 className="text-sm text-white font-semibold mt-1">Video Background</h3>
                 <p className="text-xs text-gray-400 mt-1">
-                Choose an AI-generated custom video template from our library.
-                </p>
+                Choose an AI-generated custom video template from our library.</p>
             </div>
-                </div>
+            </div>
             </div>
         </div>
     )
