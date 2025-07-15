@@ -27,7 +27,7 @@ export function Testimonial() {
   return (
     <section className="relative w-full min-h-screen text-white lg:pr-32 lg:pl-32 p-8 flex flex-col space-y-16 pt-38">
       <div className="flex flex-col space-y-6">
-        <div className="flex justify-start">
+        <div className="flex lg:justify-start justify-center">
               <div className="bg-white/20 rounded-full shadow-2xl p-2 flex space-x-1 items-center">
                   <hr className="border-1 border-[#C77DFF] w-3"/>
                   <span className="text-white font-semibold">Testimonial</span>
@@ -36,15 +36,15 @@ export function Testimonial() {
         </div>
 
         <div className="flex flex-col space-y-1">
-            <p className="text-5xl font-bold">Our User Stories:</p>
-            <p className="text-5xl font-bold ">
+            <p className="lg:text-start text-center text-3xl md:text-4xl lg:text-5xl font-bold">Our User Stories:</p>
+            <p className="lg:text-start text-center text-3xl md:text-4xl lg:text-5xl font-bold ">
                 How We Made an{' '}
-                <span className="text-5xl text-transparent bg-gradient-to-r bg-clip-text from-purple-400 to-pink-500">Impact</span></p>
+                <span className="lg:text-start text-center text-3xl md:text-4xl lg:text-5xl text-transparent bg-gradient-to-r bg-clip-text from-purple-400 to-pink-500">Impact</span></p>
         </div>
 
         <div className="flex flex-col">
-            <p className=" text-[17px] text-white/80">Explore user stories that highlight how we amde a significant impact and</p>
-            <p className="text-[17px] text-white/80">transformed user experiences in meaningfulways.</p>
+            <p className="lg:text-start text-center text-[17px] text-white/80">Explore user stories that highlight how we amde a significant impact and</p>
+            <p className="lg:text-start text-center text-[17px] text-white/80">transformed user experiences in meaningfulways.</p>
         </div>
 
       </div>
