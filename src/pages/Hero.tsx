@@ -5,7 +5,7 @@ import { useState } from 'react';
 export function Hero() {
   const [selectedVideoType, setSelectedVideoType] = useState('I want Explainer Videos');
   const [prompt, setPrompt] = useState('Imagine a playful elephant calf skating on snow, decked out in a vibrant patchwork outfit and oversized glasses. It slides effortlessly on sparkling ice before leaping a colorful trail behind.');
-  const [isPlaying, setIsPlaying] = useState(false);
+  
 
   const videoTypes = [
     'I want Explainer Videos',
