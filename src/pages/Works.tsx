@@ -18,14 +18,14 @@ export function Works(){
             </div>
 
             <div className="flex items-center justify-center flex-col mb-6">
-                <p className="text-5xl text-transparent font-bold bg-clip-text bg-gradient-to-r from-white to-[#ff03c0]">Turn ideas into</p>
-                <p className="text-5xl text-transparent font-bold bg-clip-text bg-gradient-to-l from-white  to-[#ff03c0]">
+                <p className="text-center text-3xl lg:text-5xl text-transparent font-bold bg-clip-text bg-gradient-to-r from-white to-[#ff03c0]">Turn ideas into</p>
+                <p className="text-center text-3xl lg:text-5xl text-transparent font-bold bg-clip-text bg-gradient-to-l from-white  to-[#ff03c0]">
                     short videos in seconds</p>
             </div>
 
             <div className="flex items-center justify-center flex-col mb-14">
-                <p className=" text-[17px] text-white/80">Produce endless short videos instantly. Automatically generate</p>
-                <p className="text-[17px] text-white/80">captions, effects, backgrounds and music.</p>
+                <p className="text-center text-[17px] text-white/80">Produce endless short videos instantly. Automatically generate</p>
+                <p className="text-center text-[17px] text-white/80">captions, effects, backgrounds and music.</p>
             </div>
 
             {/*cards */}
