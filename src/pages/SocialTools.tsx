@@ -51,7 +51,7 @@ export function SocialTools(){
             </div>
 
             <div className="flex items-center justify-center flex-col mb-6">
-                <h2 className="text-5xl font-semibold text-white flex flex-col items-center space-y-1">
+                <h2 className="text-3xl md:text-4xl lg:text-5xl font-semibold text-white flex flex-col items-center space-y-1">
                     Powerfull tool for
                     <span className="text-transparent bg-clip-text bg-gradient-to-r from-purple-400 to-pink-500">
                    boosting social media growth
@@ -60,8 +60,8 @@ export function SocialTools(){
             </div>
 
             <div className="flex items-center justify-center flex-col mb-14">
-                <p className=" text-[17px] text-white/80">Produce a endless number of short videos simultaneously. Automatically</p>
-                <p className="text-[17px] text-white/80">captions, effects, backgrounds and music for you.</p>
+                <p className="text-center text-[17px] text-white/80">Produce a endless number of short videos simultaneously. Automatically</p>
+                <p className="text-center text-[17px] text-white/80">captions, effects, backgrounds and music for you.</p>
                 <div className="mt-6 flex items-center justify-center space-x-2 bg-gradient-to-t from-purple-400 to-pink-500 border-1 border-white/40  text-white rounded-full h-12 w-30 p-3 shadow-4xl hover:scale-105 transition duration-300 cursor-pointer">
                     <p className="font-bold">Try Now</p>
                 <span className="font-bold">&gt;</span>
