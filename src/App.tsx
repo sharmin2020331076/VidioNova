@@ -1,5 +1,6 @@
 import { Navbar } from "./components/Navbar";
 import { Feature } from "./pages/Feature";
+import { Footer } from "./pages/Footer";
 import { Hero } from "./pages/Hero";
 import { SocialTools } from "./pages/SocialTools";
 import { Tail } from "./pages/Tail";
@@ -32,6 +33,7 @@ function App() {
    <SocialTools/>
    <Testimonial/>
    <Tail/>
+   <Footer/>
    
    
   
