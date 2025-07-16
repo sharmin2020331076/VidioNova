@@ -7,7 +7,7 @@ export function Works(){
       const toggleDropdown = () => setIsOpen(prev => !prev);
 
     return(
-        <div className="relative w-full min-h-screen lg:pr-32 lg:pl-32 lg:pt-32 p-8">
+        <div className="relative w-full min-h-screen lg:pr-32 lg:pl-32 lg:pt-8 p-8">
                 <div className="flex items-center justify-center mb-6">
                 <div className="bg-white/20 rounded-full shadow-2xl p-2 flex items-center justify-between space-x-1">
                 <hr className="border-1 border-[#C77DFF] w-3"/>

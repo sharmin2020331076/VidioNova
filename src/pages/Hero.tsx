@@ -184,7 +184,7 @@ export function Hero() {
             </div>
           </div>
         </div>
-        <div className="mt-12 flex justify-center items-center flex-wrap p-8 sm:space-x-8 space-x-4 space-y-8 md:space-y-0">
+        <div className="flex justify-center items-center flex-wrap p-8 sm:space-x-8 space-x-4 space-y-8 md:space-y-0">
           {features.map((feature, index) => (
             <div
               key={index}

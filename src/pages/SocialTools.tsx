@@ -39,7 +39,7 @@ export function SocialTools(){
     },
   ];
     return(
-        <div className="relative w-full min-h-screen pt-38"> 
+        <div className="relative w-full min-h-screen lg:pr-16 lg:pl-16 lf"> 
 
             <div className="flex flex-col space-y-4">
                 <div className="flex items-center justify-center">

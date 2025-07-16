@@ -1,6 +1,6 @@
 export function Feature(){
     return(
-        <div className="relative w-full min-h-screen lg:pr-32 lg:pl-32 p-8 pt-32 space-y-6 ">
+        <div className="relative w-full min-h-screen lg:pr-32 lg:pl-32 p-8 lg:pt-16 space-y-6 ">
 
             <div className="flex lg:justify-start justify-center">
             <div className="bg-white/20 rounded-full shadow-2xl p-2 flex space-x-1 items-center">

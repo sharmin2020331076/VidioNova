@@ -2,7 +2,7 @@
 
 export function Footer() {
   return (
-    <footer className="w-full text-white lg:p-32 p-4 pb-16">
+    <footer className=" relative w-full text-white lg:pr-32 lg:pl-32 p-4 lg:pb-16">
       <div className="mx-auto px-6">
         <div className="flex flex-col sm:flex-row text-center space-y-6 items-center justify-center sm:justify-between">
           {/* Logo */}

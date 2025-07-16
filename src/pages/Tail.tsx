@@ -1,7 +1,7 @@
 
 export function Tail(){
     return(
-        <div className="lg:p-32 p-8 w-full min-h-screen ">
+        <div className="lg:pr-32 lg:pl-32 p-8 w-full mb-16">
             <div className="flex flex-col rounded-2xl pt-8 pb-8 bg-gradient-to-br from-[#3a235d] via-[#1f1a2e] to-[#5b2d91] backdrop-blur-md bg-opacity-60 shadow-2xl text-center space-y-10">
             <div className="flex flex-col space-y-6">
                 <h1 className="text-5xl font-bold text-white">
